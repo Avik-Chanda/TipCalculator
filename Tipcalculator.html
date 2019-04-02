@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tip Calculator Demo</title>
+    <link rel="stylesheet" href="C:\Projects\JavaScriptApp\CSS\Tipcalculator.css">
+    <script src="C:\Projects\JavaScriptApp\Javascript\TipCalculator.js"></script>
+</head>
+<body>
+    <!-- Div Parent  -->
+    <div class="tip_calc">
+        <!-- Div 1 -->
+        <div class="heading">    
+            <h1>Tip Calculator</h1>
+        </div>
+
+        <!-- Div 2 -->
+        <div class="service_details">
+            <p>How much was your bill ? </p>
+            $ <input type="text" required placeholder="Enter the bill amount"  id="currency">
+            <p id="bill"></p>
+        </div>
+
+        <!-- Div 3 -->
+        <div class="dropdown">   
+            <p>How was the service</p>
+            <select name="select" id="select">
+                <option value="0.05"><h1>5% --Terrible</h1></option>
+                <option value="0.1"><h1>10% --It was bad</h1></option>
+                <option value="0.15"><h1>15% --Ok</h1></option>
+                <option value="0.20"><h1>20% --Good</h1></option>
+                <option value="0.30"><h1>30% --Outstanding</h1></option>
+            </select>
+        </div>
+
+        <!-- Div 4 -->
+        <div class="peoplecount">
+            <p>How many people are sharing the amount? </p>
+            <input type="text" required placeholder="Enter the no. of people" id="number1">
+        </div>
+
+        <!-- Div 5 -->
+        <div class="calculate" id="calculate">
+            <div class="button" id="button" onclick="myCode(this.body)"> CALCULATE ! </div>
+        </div>
+
+        <!-- Div 6  -->
+        <div class="result"  id="result">
+            <p>Total tip </p>
+            <sup>$</sup> <span id="tip"></span>
+            <p>each</p>
+            
+        </div>
+
+
+    </div>
+</body>
+</html> 

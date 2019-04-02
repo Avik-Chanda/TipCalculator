@@ -1,0 +1,89 @@
+div.tip_calc
+{
+   margin: auto;
+    border: 1px solid black;
+    overflow: auto;
+    width : 30%;
+    text-align: center;
+    height : 650px;
+    border-radius :  20px;
+}
+
+/* Tip Calculator  */
+div.heading
+{
+    background-color: black;
+    color : white;
+    margin-top : 0px;
+}
+
+/*  How much was your bill ? Div 2   */
+div.service_details 
+{
+    font-size : 30px;
+}
+/* Div 2  */
+#currency 
+{
+    width : 300px;
+    height : 40px; 
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+/* Div 3  */
+div.dropdown
+{
+    font-size : 30px;
+}
+
+#select
+{
+    height : 20px;
+}
+
+/* Div 4  */
+
+div.peoplecount
+{
+    font-size : 30px;
+    padding : 0 5px 0 5px ;
+   
+}
+
+#number1
+{
+    width : 300px;
+    height : 40px; 
+    padding-left: 15px;
+    font-size: 20px;
+    
+}
+
+div.calculate
+{
+    margin : auto;
+    border : 1px solid black ;
+    margin-top : 20px;
+    height : 40px;
+    padding-top : 20px;
+    width: 200px;
+    font-size : 20px;
+    transition: 0.3s;
+}
+
+div.result
+{
+    margin : 10px;
+    /* border : 1px solid black; */
+    visibility: hidden;
+}
+
+div.calculate:hover
+{
+    background-color: crimson;
+    color:white;
+}
+
+
+
